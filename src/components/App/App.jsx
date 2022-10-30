@@ -9,7 +9,6 @@ import { LoadMoreButton } from 'components/Button/Button';
 import { Modal } from 'components/Modal/Modal';
 import css from './App.module.css';
 import { fetchImage } from 'api';
-import { toHaveFocus } from '@testing-library/jest-dom/dist/matchers';
 
 export class App extends Component {
   state = {
